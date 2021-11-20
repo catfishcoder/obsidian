@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "d743cd744d8d29d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7e237ff5c3c1cd6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "h5ai搭建网盘教程.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "b33bd696d9405417",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "linux下制作PE启动盘.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9f8fb54ea3308288",
+    "type": "split",
+    "children": [
+      {
+        "id": "80d18249534aac1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "826c57f24fdd4d87",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fd1ac9bc2efbb2bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 180
+  },
+  "right": {
+    "id": "f275cacaa0c467cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "be589cec2816fc15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ff674c003835b85",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "h5ai搭建网盘教程.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b7e237ff5c3c1cd6",
+  "lastOpenFiles": [
+    "h5ai搭建网盘教程.md",
+    "linux下制作PE启动盘.md",
+    "未命名看板.md"
+  ]
+}
