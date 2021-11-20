@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b7e237ff5c3c1cd6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "h5ai搭建网盘教程.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "b33bd696d9405417",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "linux下制作PE启动盘.md",
+            "file": "测试.md",
             "mode": "source"
           }
         }
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "h5ai搭建网盘教程.md",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,18 +78,27 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "1972d7556db2aca9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 379
   },
-  "active": "b7e237ff5c3c1cd6",
+  "active": "b33bd696d9405417",
   "lastOpenFiles": [
-    "h5ai搭建网盘教程.md",
+    "测试.md",
     "linux下制作PE启动盘.md",
+    "h5ai搭建网盘教程.md",
     "未命名看板.md"
   ]
 }
