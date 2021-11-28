@@ -1,0 +1,3 @@
+- 在linux中，使用 `crontab` 命令指定周期执行的定时任务
+- 使用 man crontab 来查看 `crontab` 命令的帮助信息。
+- 在crontab命令中，使用`-e`选项来编辑定时任务

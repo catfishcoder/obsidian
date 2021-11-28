@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "58096bf829a26444",
+    "id": "89bdb189648cec1b",
     "type": "split",
     "children": [
       {
-        "id": "8e0ad04f3b92f957",
+        "id": "20d5f2be8107d03b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思路清晰/学习路线.md",
+            "file": "黑马基础课程C++部分.md",
             "mode": "source"
           }
         }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9f8fb54ea3308288",
+    "id": "32c41a6883527322",
     "type": "split",
     "children": [
       {
-        "id": "80d18249534aac1b",
+        "id": "b1e13497830bc383",
         "type": "tabs",
         "children": [
           {
-            "id": "826c57f24fdd4d87",
+            "id": "50994dfc36770952",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "fd1ac9bc2efbb2bf",
+            "id": "e3c9dd39b06917c6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,23 +52,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 180
+    "width": 201,
+    "collapsed": true
   },
   "right": {
-    "id": "f275cacaa0c467cc",
+    "id": "2c32c9bfd89ead33",
     "type": "split",
     "children": [
       {
-        "id": "be589cec2816fc15",
+        "id": "1908f7e471e0718f",
         "type": "tabs",
         "children": [
           {
-            "id": "8ff674c003835b85",
+            "id": "8a123538539e0ddf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思路清晰/学习路线.md",
+                "file": "黑马基础课程C++部分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,29 +81,36 @@
             }
           },
           {
-            "id": "1972d7556db2aca9",
+            "id": "a52ebdea780615dc",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bb95561db3f6a053",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "黑马基础课程C++部分.md"
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 379,
+    "width": 300,
     "collapsed": true
   },
-  "active": "8e0ad04f3b92f957",
+  "active": "20d5f2be8107d03b",
   "lastOpenFiles": [
-    "思路清晰/学习路线.md",
-    "思路清晰/通讯录管理程序.md",
-    "做个笔记/linux下制作PE启动盘.md",
-    "做个笔记/linux下制作定时脚本.md",
-    "测试.md",
-    "做个笔记/h5ai搭建网盘教程.md",
-    "未命名看板.md"
+    "黑马基础课程C++部分.md"
   ]
 }

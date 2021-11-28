@@ -1,0 +1,116 @@
+{
+  "main": {
+    "id": "1df2a8e10da75853",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d05fb89eb02cbe5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "鸟叔的linux私房菜.md",
+            "mode": "source"
+          }
+        },
+        "group": "243605cf51b7a4c3"
+      },
+      {
+        "id": "7f535736874dc7c0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "鸟叔的linux私房菜.md",
+            "mode": "source"
+          }
+        },
+        "group": "243605cf51b7a4c3"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6150e355ba615b3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5088fab5642d6a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e865eb8a39c1f01",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235
+  },
+  "right": {
+    "id": "1de99f6c4e3b2dc8",
+    "type": "split",
+    "children": [
+      {
+        "id": "050421d24c3e159e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6d9555cacf17cb2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "鸟叔的linux私房菜.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "86046f86acc37c4b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "43700970e8735e67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "鸟叔的linux私房菜.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2d05fb89eb02cbe5",
+  "lastOpenFiles": [
+    "鸟叔的linux私房菜.md",
+    "GDB用法.md",
+    "计划.md",
+    "Day Planners/Day Planner-20211124.md"
+  ]
+}
