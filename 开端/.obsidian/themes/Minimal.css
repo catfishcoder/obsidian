@@ -1,6 +1,6 @@
 /* 
 
-Minimal Obsidian 4.1.7 by @kepano
+Minimal Obsidian 4.1.9 by @kepano
 
 This theme is designed to be used with the Minimal Theme Settings 
 plugin and the Hider plugin.
@@ -168,7 +168,7 @@ Disabled features */
   --font-title:1.1em;
 
   --h1:1.125em;
-  --h2:1em;
+  --h2:1.05em;
   --h3:1em;
   --h4:0.90em;
   --h5:0.85em;
@@ -180,13 +180,6 @@ Disabled features */
   --h4-weight:500;
   --h5-weight:500;
   --h6-weight:400;
-
-  --h1-color:var(--text-normal);
-  --h2-color:var(--text-normal);
-  --h3-color:var(--text-normal);
-  --h4-color:var(--text-normal);
-  --h5-color:var(--text-normal);
-  --h6-color:var(--text-muted);
 
   --normal-weight:400;   /* Switch to 300 if you want thinner default text */
   --bold-weight:600;     /* Switch to 700 if you want thicker bold text */
@@ -255,146 +248,146 @@ body {
 
   These values are mostly driven by the options above */
 
-  .theme-light {
+.theme-light {
 
-    --text-normal:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 90%));
-    --text-muted:hsl(var(--base-h),calc(var(--base-s) - 5%),calc(var(--base-l) - 45%));
-    --text-faint:hsl(var(--base-h),calc(var(--base-s) - 5%),calc(var(--base-l) - 25%));
+  --text-normal:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 90%));
+  --text-muted:hsl(var(--base-h),calc(var(--base-s) - 5%),calc(var(--base-l) - 45%));
+  --text-faint:hsl(var(--base-h),calc(var(--base-s) - 5%),calc(var(--base-l) - 25%));
 
-    --text-accent:hsl(var(--accent-h),var(--accent-s),var(--accent-l));
-    --text-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-l) - 10%));
-    --text-on-accent:white;
+  --text-accent:hsl(var(--accent-h),var(--accent-s),var(--accent-l));
+  --text-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-l) - 10%));
+  --text-on-accent:white;
 
-    --text-selection:hsla(var(--accent-h),50%,calc(var(--base-l) - 20%), 30%);
-    --text-highlight-bg:rgba(255, 224, 0, 0.5);
-    --text-highlight-bg-active:rgba(0, 0, 0, 0.1);
+  --text-selection:hsla(var(--accent-h),50%,calc(var(--base-l) - 20%), 30%);
+  --text-highlight-bg:rgba(255, 224, 0, 0.5);
+  --text-highlight-bg-active:rgba(0, 0, 0, 0.1);
 
-    --text-code:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 75%));
+  --text-code:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 75%));
 
-    --background-primary:white;
-    --background-primary-alt:hsl(var(--base-h),var(--base-s),var(--base-l));
-    --background-secondary:hsl(var(--base-h),var(--base-s),var(--base-l));
-    --background-secondary-alt:hsl(var(--base-h),var(--base-s),var(--base-l));
-    --background-tertiary:hsla(var(--base-h),var(--base-s),calc(var(--base-l) - 14%),0.4);
-    --background-modifier-border:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 6%));
-    --background-modifier-border-hover:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 12%));
-    --background-modifier-border-focus:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 20%));
-    --background-modifier-form-field:hsl(var(--base-h),var(--base-s),calc(var(--base-l) + 6%));
-    --background-modifier-form-field-highlighted:hsl(var(--base-h),var(--base-s),calc(var(--base-l) + 8%));
-    --background-button:white;
-    --background-table-rows:var(--background-secondary);
+  --background-primary:white;
+  --background-primary-alt:hsl(var(--base-h),var(--base-s),var(--base-l));
+  --background-secondary:hsl(var(--base-h),var(--base-s),var(--base-l));
+  --background-secondary-alt:hsl(var(--base-h),var(--base-s),var(--base-l));
+  --background-tertiary:hsla(var(--base-h),var(--base-s),calc(var(--base-l) - 14%),0.4);
+  --background-modifier-border:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 6%));
+  --background-modifier-border-hover:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 12%));
+  --background-modifier-border-focus:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 20%));
+  --background-modifier-form-field:hsl(var(--base-h),var(--base-s),calc(var(--base-l) + 6%));
+  --background-modifier-form-field-highlighted:hsl(var(--base-h),var(--base-s),calc(var(--base-l) + 8%));
+  --background-button:white;
+  --background-table-rows:var(--background-secondary);
 
-    --modal-border:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 18%));
+  --modal-border:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 18%));
 
-    --background-transparent:hsla(var(--base-h),var(--base-s),var(--base-l),0);
-    --background-translucent:rgba(255,255,255,0.85);
+  --background-transparent:hsla(var(--base-h),var(--base-s),var(--base-l),0);
+  --background-translucent:rgba(255,255,255,0.9);
 
-    --icon-color:var(--text-muted);
-    --icon-hex:000;
+  --icon-color:var(--text-muted);
+  --icon-hex:000;
 
-    --background-match-highlight:hsla(var(--accent-h), 40%, 62%, 0.2);
-    --background-modifier-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-l) + 10%));
+  --background-match-highlight:hsla(var(--accent-h), 40%, 62%, 0.2);
+  --background-modifier-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-l) + 10%));
 
-    --interactive-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-l) + 10%));
-    --interactive-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-l) - 0%));
+  --interactive-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-l) + 10%));
+  --interactive-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-l) - 0%));
 
-    --interactive-accent-rgb:220, 220, 220;
+  --interactive-accent-rgb:220, 220, 220;
 
-    --quote-opening-modifier:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 10%));
-    --background-modifier-cover:hsla(var(--base-h),var(--base-s),calc(var(--base-l) - 7%),0.7);
-    --shadow-color:rgba(0, 0, 0, 0.1);
-    --btn-shadow-color:rgba(0, 0, 0, 0.05);
-  }
+  --quote-opening-modifier:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 10%));
+  --background-modifier-cover:hsla(var(--base-h),var(--base-s),calc(var(--base-l) - 7%),0.7);
+  --shadow-color:rgba(0, 0, 0, 0.1);
+  --btn-shadow-color:rgba(0, 0, 0, 0.05);
+}
 
-  .theme-light.minimal-light-contrast .workspace-fake-target-overlay.is-in-sidebar,
-  .theme-light.minimal-light-contrast .titlebar,
-  .theme-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
-  .theme-light.minimal-light-contrast .mod-left-split,
-  .theme-light.minimal-light-contrast.minimal-status-off .status-bar,
-  .theme-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left,
-  .theme-dark {
+.theme-light.minimal-light-contrast .workspace-fake-target-overlay.is-in-sidebar,
+.theme-light.minimal-light-contrast .titlebar,
+.theme-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
+.theme-light.minimal-light-contrast .mod-left-split,
+.theme-light.minimal-light-contrast.minimal-status-off .status-bar,
+.theme-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left,
+.theme-dark {
 
-    --text-normal:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 67%));
-    --text-muted:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 45%));
-    --text-faint:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 20%));
+  --text-normal:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 67%));
+  --text-muted:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 45%));
+  --text-faint:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 20%));
 
-    --text-accent:hsl(var(--accent-h),var(--accent-s),var(--accent-d));
-    --text-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) + 12%));
-    --text-on-accent:white;
+  --text-accent:hsl(var(--accent-h),var(--accent-s),var(--accent-d));
+  --text-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) + 12%));
+  --text-on-accent:white;
 
-    --text-selection:hsla(var(--accent-h),70%,40%,30%);
-    --text-highlight-bg:rgba(255, 177, 80, 0.3);
-    --text-highlight-bg-active:rgba(255, 255, 255, 0.1);
+  --text-selection:hsla(var(--accent-h),70%,40%,30%);
+  --text-highlight-bg:rgba(255, 177, 80, 0.3);
+  --text-highlight-bg-active:rgba(255, 255, 255, 0.1);
 
-    --text-code:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 60%));
+  --text-code:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 60%));
 
-    --background-primary:hsl(var(--base-h),var(--base-s),var(--base-d));
-    --background-primary-alt:hsl(var(--base-h),var(--base-s),calc(var(--base-d) - 2%));
-    --background-secondary:hsl(var(--base-h),var(--base-s),calc(var(--base-d) - 2%));
-    --background-secondary-alt:hsl(var(--base-h),var(--base-s),var(--base-d));
-    --background-tertiary:hsla(var(--base-h),var(--base-s),calc(var(--base-d) + 8%),0.4);
-    --background-modifier-border:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 5%));
-    --background-modifier-border-hover:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 8%));
-    --background-modifier-border-focus:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 20%));
-    --background-modifier-box-shadow:rgba(0, 0, 0, 0.3);
-    --background-modifier-form-field:hsl(var(--base-h),var(--base-s),calc(var(--base-d) - 2%));
-    --background-table-rows:var(--background-secondary);
+  --background-primary:hsl(var(--base-h),var(--base-s),var(--base-d));
+  --background-primary-alt:hsl(var(--base-h),var(--base-s),calc(var(--base-d) - 2%));
+  --background-secondary:hsl(var(--base-h),var(--base-s),calc(var(--base-d) - 2%));
+  --background-secondary-alt:hsl(var(--base-h),var(--base-s),var(--base-d));
+  --background-tertiary:hsla(var(--base-h),var(--base-s),calc(var(--base-d) + 8%),0.4);
+  --background-modifier-border:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 5%));
+  --background-modifier-border-hover:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 8%));
+  --background-modifier-border-focus:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 20%));
+  --background-modifier-box-shadow:rgba(0, 0, 0, 0.3);
+  --background-modifier-form-field:hsl(var(--base-h),var(--base-s),calc(var(--base-d) - 2%));
+  --background-table-rows:var(--background-secondary);
 
-    --background-button:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 4%));
+  --background-button:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 4%));
 
-    --background-transparent:hsla(var(--base-h),var(--base-s),var(--base-d),0);
-    --background-translucent:hsla(var(--base-h),var(--base-s),var(--base-d),0.85);
-    --background-match-highlight:hsla(var(--accent-h), 40%, 62%, 0.2);
-    --background-modifier-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 10%));
+  --background-transparent:hsla(var(--base-h),var(--base-s),var(--base-d),0);
+  --background-translucent:hsla(var(--base-h),var(--base-s),var(--base-d),0.9);
+  --background-match-highlight:hsla(var(--accent-h), 40%, 62%, 0.2);
+  --background-modifier-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 10%));
 
-    --modal-border:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 8%));
+  --modal-border:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 8%));
 
-    --icon-color:var(--text-muted);
-    --icon-hex:FFF;
-    --interactive-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 20%));
-    --interactive-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 15%));
-    --quote-opening-modifier:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 10%));
-    --interactive-accent-rgb:66, 66, 66;
+  --icon-color:var(--text-muted);
+  --icon-hex:FFF;
+  --interactive-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 20%));
+  --interactive-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 15%));
+  --quote-opening-modifier:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 10%));
+  --interactive-accent-rgb:66, 66, 66;
 
-    --background-modifier-cover:hsla(var(--base-h),var(--base-s),calc(var(--base-d) - 12%),0.8);
-    --shadow-color:rgba(0, 0, 0, 0.3);
-    --btn-shadow-color:rgba(0, 0, 0, 0.2);
-  }
-  .theme-light.minimal-light-white {
-    --background-secondary:white;
-    --background-table-rows:hsl(var(--base-h),var(--base-s),var(--base-l));
-  }
-  .theme-light.minimal-light-tonal {
-    --background-primary:hsl(var(--base-h),var(--base-s),var(--base-l));
-    --background-primary-alt:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 4%));
-    --background-translucent:hsla(var(--base-h),var(--base-s),var(--base-l),0.85);
-    --background-table-rows:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 4%));
-  }
-  .theme-dark.minimal-dark-tonal {
-    --background-secondary:hsl(var(--base-h),var(--base-s),var(--base-d));
-    --background-tertiary:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 4%));
-    --background-table-rows:var(--background-tertiary);
-  }
-  .theme-dark.minimal-dark-black {
-    --base-d:0%;
+  --background-modifier-cover:hsla(var(--base-h),var(--base-s),calc(var(--base-d) - 12%),0.8);
+  --shadow-color:rgba(0, 0, 0, 0.3);
+  --btn-shadow-color:rgba(0, 0, 0, 0.2);
+}
+.theme-light.minimal-light-white {
+  --background-secondary:white;
+  --background-table-rows:hsl(var(--base-h),var(--base-s),var(--base-l));
+}
+.theme-light.minimal-light-tonal {
+  --background-primary:hsl(var(--base-h),var(--base-s),var(--base-l));
+  --background-primary-alt:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 4%));
+  --background-translucent:hsla(var(--base-h),var(--base-s),var(--base-l),0.9);
+  --background-table-rows:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 4%));
+}
+.theme-dark.minimal-dark-tonal {
+  --background-secondary:hsl(var(--base-h),var(--base-s),var(--base-d));
+  --background-tertiary:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 4%));
+  --background-table-rows:var(--background-tertiary);
+}
+.theme-dark.minimal-dark-black {
+  --base-d:0%;
 
-    --text-normal:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 75%));
-    --text-muted:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 50%));
-    --text-faint:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 25%));
+  --text-normal:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 75%));
+  --text-muted:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 50%));
+  --text-faint:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 25%));
 
-    --background-primary-alt:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 6%));
-    --background-tertiary:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 10%));
-    --background-button:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 10%));
-    --background-modifier-border:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 12%));
-    --background-modifier-border-hover:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 20%));
-    --background-modifier-border-focus:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 30%));
-    --background-modifier-cover:hsla(var(--base-h),var(--base-s),calc(var(--base-d) + 8%),0.9);
-    --background-table-rows:var(--background-tertiary);
-    --modal-border:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 14%));
+  --background-primary-alt:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 6%));
+  --background-tertiary:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 10%));
+  --background-button:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 10%));
+  --background-modifier-border:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 12%));
+  --background-modifier-border-hover:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 20%));
+  --background-modifier-border-focus:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 30%));
+  --background-modifier-cover:hsla(var(--base-h),var(--base-s),calc(var(--base-d) + 8%),0.9);
+  --background-table-rows:var(--background-tertiary);
+  --modal-border:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 14%));
 
-    --icon-muted:0.5;
-    --background-modifier-box-shadow:rgba(0, 0, 0, 1);
-  }
+  --icon-muted:0.5;
+  --background-modifier-box-shadow:rgba(0, 0, 0, 1);
+}
 
 .borders-low {
   --border-width:0px;
@@ -405,6 +398,15 @@ body {
   --border-width-alt:0px;
 }
 
+.theme-light,
+.theme-dark {
+  --h1-color:var(--text-normal);
+  --h2-color:var(--text-normal);
+  --h3-color:var(--text-normal);
+  --h4-color:var(--text-normal);
+  --h5-color:var(--text-normal);
+  --h6-color:var(--text-muted);
+}
 
 /*----------------------------------------------------------------
 
@@ -528,7 +530,9 @@ Frameless mode on macOS only */
   transition:border-color 0s ease-in-out 0.1s, background-color 0s ease-in-out 0.2s;
 }
 .focus-mode .workspace-ribbon.mod-left.is-collapsed:hover .side-dock-actions,
-.focus-mode .workspace-ribbon.mod-left.is-collapsed:hover .side-dock-settings {
+.focus-mode .workspace-ribbon.mod-left.is-collapsed:hover .side-dock-settings,
+.focus-mode .workspace-ribbon.mod-left.is-collapsed:hover .workspace-ribbon-collapse-btn,
+.focus-mode .workspace-ribbon.is-collapsed:hover .workspace-ribbon-collapse-btn {
   opacity:1;
   transition:opacity 0s ease-in-out;
 }
@@ -566,25 +570,9 @@ body:not(.is-mobile) .view-actions .view-action:last-child  {
   opacity:1;
   transition:opacity 0.25s ease-in-out;
 }
-.focus-mode .view-actions,
-.focus-mode .workspace-ribbon.mod-right.is-collapsed ~ .mod-root .view-actions,
-.focus-mode .workspace-ribbon.mod-left.is-collapsed ~ .mod-root .view-actions,
-.focus-mode .workspace-ribbon.mod-left.is-collapsed .side-dock-actions,
-.focus-mode .workspace-ribbon.mod-left.is-collapsed .side-dock-settings {
-  opacity:0;
-  transition:opacity 0.25s ease-in-out;
-}
 
-/* --------------- */
-/* Colorful headings */
-
-body.color-headings {
-  --h1-color:var(--red);
-  --h2-color:var(--orange);
-  --h3-color:var(--yellow);
-  --h4-color:var(--green);
-  --h5-color:var(--cyan);
-  --h6-color:var(--purple);
+body.focus-mode.borders-title .workspace-ribbon.mod-left.is-collapsed {
+  border-right:none;
 }
 
 /* --------------- */
@@ -605,6 +593,9 @@ body.color-headings {
 .theme-light span[src$="invertW"] img {
   filter: invert(1) hue-rotate(180deg);
 }
+span[src$="#round"] img {
+  border-radius:50%;
+}
 
 /* --------------- */
 /* Image zoom  */
@@ -620,16 +611,17 @@ body:not(.zoom-off) .view-content .markdown-preview-view img {
   cursor:zoom-in;}
 
 body:not(.zoom-off) .view-content .markdown-preview-view img:active {
-  cursor:zoom-out;}
+  cursor:zoom-out;
+}
 
 body:not(.is-mobile):not(.zoom-off) .view-content .markdown-preview-view img[referrerpolicy='no-referrer']:active,
 body:not(.is-mobile):not(.zoom-off) .view-content .image-embed:active {
   cursor:zoom-out;
   display:block;
-  z-index:100;
+  z-index:200;
   position:fixed;
   max-height:calc(100% + 1px);
-  max-width:calc(100% - 20px);
+  max-width:100%;
   height:calc(100% + 1px);
   width:100%;
   object-fit:contain;
@@ -649,8 +641,9 @@ body:not(.is-mobile):not(.zoom-off) .view-content .markdown-preview-view .image-
   transform:translateY(-50%);
   padding:0;
   margin:0 auto;
-  width:auto;
+  width:calc(100% - 20px);
   max-height:95vh;
+  object-fit:contain;
   left:0;
   right:0;
   bottom:0;
@@ -937,14 +930,16 @@ body.hide-tokens .cm-s-obsidian pre.HyperMD-table-row > span {
 /* --------------- */
 /* Dataview plugin */
 
+body .table-view-table > thead > tr > th,
 .markdown-preview-view .table-view-table {
   font-size:calc(var(--font-adaptive-normal) - 1px);
 }
+body .table-view-table > thead > tr > th,
 .markdown-preview-view .table-view-table > thead > tr > th {
   font-weight:600;
   font-size:calc(var(--font-adaptive-normal) - 1px);
   color:var(--text-normal);
-  border-bottom:1px solid var(--text-faint);
+  border-bottom:1px solid var(--background-modifier-border);
   cursor:var(--cursor);
 }
 ul.dataview-ul {
@@ -953,6 +948,7 @@ ul.dataview-ul {
   margin-block-start:0.5em;
   margin-block-end:0.5em;
 }
+
 
 /* ----------------- */
 /* Dictionary plugin */
@@ -1337,6 +1333,15 @@ body.outliner-plugin-bls .cm-s-obsidian span.cm-formatting-list-ul {
 }
 
 /* --------------- */
+/* Sortable plugin */
+
+/* Live preview */
+.markdown-source-view.mod-cm6 th {
+  background-repeat:no-repeat;
+  background-position:right;
+}
+
+/* --------------- */
 /* QuickAdd plugin */
 
 .modal .quickAddPrompt > h1 {
@@ -1521,6 +1526,7 @@ body, input, button,
   font-size:var(--font-title);
   font-weight:var(--bold-weight);
 }
+h1,
 .empty-state-title,
 .markdown-preview-view h1,
 .cm-s-obsidian .cm-header-1 {
@@ -2529,14 +2535,12 @@ body:not(.is-mobile).fancy-cursor .mod-cm6 .cm-cursor {
 .is-mobile.fancy-cursor .mod-cm6 .cm-line {
   caret-color:var(--text-accent);
 }
-
 .markdown-source-view.mod-cm6 hr {
   border-width:2px;
 }
 .mod-cm6 .ͼ1 .cm-line {
   padding:0 0 0 1px;
 }
-
 .markdown-source-view.mod-cm6 .HyperMD-quote {
   background-color:transparent;
   border-left:1px solid var(--quote-opening-modifier);
@@ -2550,6 +2554,17 @@ body:not(.is-mobile).fancy-cursor .mod-cm6 .cm-cursor {
 }
 .markdown-source-view.mod-cm6 .cm-hmd-indent-in-quote {
   margin-left:10px;
+}
+
+
+/* Code execution blocks, e.g. Dataview */
+
+.markdown-source-view.mod-cm6 .cm-embed-block {
+  padding:0;
+  border:0;
+}
+.markdown-source-view.mod-cm6 .cm-embed-block:hover {
+  border:0;
 }
 
 /* Bullets */
@@ -2571,23 +2586,34 @@ body:not(.is-mobile).fancy-cursor .mod-cm6 .cm-cursor {
 /*
 .markdown-source-view.mod-cm6 .cm-selection {
   background-color:transparent;
-} */
-
+} 
+*/
 .markdown-source-view.mod-cm6 .cm-scroller {
   padding-top:15px;
   padding-left:calc((100% - var(--max-width)) / 2);
   padding-right:calc((100% - var(--max-width)) / 2);
 }
-.markdown-source-view.mod-cm6 .cm-editor {
-
-}
-.markdown-source-view.mod-cm6.is-readable-line-width .cm-content {
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer {
   max-width:var(--line-width-adaptive);
 }
-
+body:not(.is-mobile).minimal-folding .markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer { 
+  max-width:calc(var(--line-width-adaptive) - var(--folding-offset));
+}
 
 /* --------------- */
 /* Editor mode (Classic) */
+
+.theme-light .token.operator,
+.theme-light .token.entity,
+.theme-light .token.url,
+.theme-light .language-css .token.string,
+.theme-light .style .token.string,
+.theme-light .cm-operator,
+.theme-light .cm-string,
+.theme-light .cm-string-2,
+.theme-light .cm-link {
+  background-color:transparent;
+}
 
 /* Fancy cursor */
 .fancy-cursor .CodeMirror-cursor {
@@ -2664,14 +2690,15 @@ body:not(.is-mobile).fancy-cursor .mod-cm6 .cm-cursor {
 
 /* Transcluded notes and embeds */
 
+.embed-strict .internal-embed .markdown-embed,
 .embed-inline .internal-embed .markdown-embed {
   padding:0;
   border:none;
 }
-.embed-inline .internal-embed .markdown-embed .markdown-embed-title {
+.embed-strict .internal-embed .markdown-embed .markdown-embed-title {
   display:none;
 }
-.embed-inline .internal-embed:not([src*="#^"]) .markdown-embed-link {
+.embed-strict .internal-embed:not([src*="#^"]) .markdown-embed-link {
   width:30px;
 }
 
@@ -2697,7 +2724,7 @@ body:not(.is-mobile).fancy-cursor .mod-cm6 .cm-cursor {
 .internal-embed:not([src*="#^"]) .markdown-embed-link {
   right:0;
   width:100%;
-  cursor:var(--cursor);
+
 }
 .markdown-embed-link,
 .file-embed-link {
@@ -2759,7 +2786,7 @@ body:not(.is-mobile).fancy-cursor .mod-cm6 .cm-cursor {
 /* Editor Mode Tables */
 .CodeMirror pre.HyperMD-table-row {
   font-family:var(--font-monospace);
-  font-size:calc(var(--font-adaptive-normal) - 1px);
+  font-size:calc(var(--font-adaptive-normal) - 2px);
 }
 
 /* Editor Mode Lists */
@@ -4164,11 +4191,19 @@ a[href*="obsidian://search"] {
 .theme-dark a[href*="obsidian://search"] {
   background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='17' height='17' class='search'><path fill='white' stroke='white' stroke-width='2' d='M42,6C23.2,6,8,21.2,8,40s15.2,34,34,34c7.4,0,14.3-2.4,19.9-6.4l26.3,26.3l5.6-5.6l-26-26.1c5.1-6,8.2-13.7,8.2-22.1 C76,21.2,60.8,6,42,6z M42,10c16.6,0,30,13.4,30,30S58.6,70,42,70S12,56.6,12,40S25.4,10,42,10z'></path></svg>");
 }
+
+/* Links and underline handling*/
 .minimal-theme:not(.links-int-on) a[href*="obsidian://"],
 .minimal-theme:not(.links-int-on) .markdown-preview-view .internal-link,
-.minimal-theme:not(.links-int-on) .external-link {
+.minimal-theme:not(.links-ext-on) .external-link,
+.minimal-theme:not(.links-ext-on) .cm-link .cm-underline,
+.minimal-theme:not(.links-ext-on) .cm-s-obsidian span.cm-url,
+.minimal-theme:not(.links-int-on) .cm-hmd-internal-link .cm-underline,
+.minimal-theme:not(.links-int-on) a.internal-link,
+.minimal-theme:not(.links-int-on) .cm-s-obsidian span.cm-hmd-internal-link:hover {
   text-decoration:none;
 }
+.minimal-theme.links-int-on .is-live-preview .cm-hmd-internal-link,
 .minimal-theme.links-int-on .markdown-preview-view .internal-link,
 .markdown-preview-view .internal-link {
   text-decoration:underline;
@@ -4177,6 +4212,12 @@ a[href*="obsidian://search"] {
 .external-link {
   text-decoration:underline;
 }
+.is-live-preview.cm-s-obsidian span.cm-hmd-internal-link:hover,
+.is-live-preview.cm-s-obsidian span.cm-url:hover,
+.is-live-preview.cm-s-obsidian span.cm-link:hover {
+  color:var(--text-accent-hover);
+}
+
 .footnotes-list {
   margin-block-start:-10px;
   padding-inline-start:20px;
@@ -4263,13 +4304,13 @@ audio::-webkit-media-controls-panel {
 
 /* Backlinks in Preview */
 
-.mod-root .workspace-leaf-content[data-type='markdown'] .nav-header {
+.mod-root .workspace-leaf-content[data-type='markdown']  .nav-header {
   border-top:1px solid var(--background-modifier-border);
   margin-top:3em;
   position:relative;
 }
 .mod-root .workspace-leaf-content[data-type='markdown'] .nav-buttons-container,
-.mod-root .workspace-leaf-content[data-type='markdown'] .backlink-pane,
+.mod-root .workspace-leaf-content[data-type='markdown'].backlink-pane,
 .mod-root .workspace-leaf-content[data-type='markdown'] .backlink-pane .search-result-container,
 .mod-root .workspace-leaf-content[data-type='markdown'] .search-input-container,
 .mod-root .workspace-leaf-content[data-type='markdown'] .tree-item,
@@ -4330,27 +4371,46 @@ audio::-webkit-media-controls-panel {
 
 /* Tables */
 
+.markdown-source-view.mod-cm6 table {
+  border-collapse:collapse; 
+}
 .markdown-preview-view table {
   margin-block-start:1em;
 }
+
+.markdown-source-view.mod-cm6 td,
+.markdown-source-view.mod-cm6 th,
+.markdown-preview-view th,
+.markdown-preview-view td {
+  padding:4px 10px;
+}
+
+.markdown-source-view.mod-cm6 td,
 .markdown-preview-view td {
   font-size:calc(var(--font-adaptive-normal) - 2px);
 }
+
+.markdown-source-view.mod-cm6 th,
 .markdown-preview-view th {
   font-weight:var(--bold-weight);
   font-size:calc(var(--font-adaptive-normal) - 2px);
   text-align:left;
   border-top:none;
 }
+.markdown-source-view.mod-cm6 th:last-child,
+.markdown-source-view.mod-cm6 td:last-child,
 .markdown-preview-view th:last-child,
 .markdown-preview-view td:last-child {
   border-right:none;
 }
+.markdown-source-view.mod-cm6 th:first-child,
+.markdown-source-view.mod-cm6 td:first-child,
 .markdown-preview-view th:first-child,
 .markdown-preview-view td:first-child {
   border-left:none;
   padding-left:0;
 }
+.markdown-source-view.mod-cm6 tr:last-child td,
 .markdown-preview-view tr:last-child td {
   border-bottom:none;
 }
@@ -4378,6 +4438,11 @@ audio::-webkit-media-controls-panel {
 }
 .table-nowrap tbody > tr > td {
   white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+.row-highlight tbody > tr:hover td {
+  background-color:var(--background-table-rows);
 }
 .row-lines tbody > tr > td,
 .row-lines .table-view-table > tbody > tr > td {
@@ -4390,12 +4455,16 @@ audio::-webkit-media-controls-panel {
 }
 .table-small.markdown-preview-view .table-view-table > thead > tr > th,
 .table-small thead > tr > th,
-.table-small tbody > tr > td {
+.table-small tbody > tr > td,
+.table-small .table-view-table .tag,
+.table-small .table-view-table a.tag {
   font-size:85%;
 }
 .table-tiny.markdown-preview-view .table-view-table > thead > tr > th,
 .table-tiny thead > tr > th,
-.table-tiny tbody > tr > td {
+.table-tiny tbody > tr > td,
+.table-tiny .table-view-table .tag,
+.table-tiny .table-view-table a.tag {
   font-size:75%;
 }
 
@@ -5977,7 +6046,8 @@ Icon replacement
 Thanks to Matthew Meyers and Chetachi Ezikeuzor
 -------------------------------------------------------------------------------- */
 
-.tree-item-self .collapse-icon {
+
+.is-mobile .tree-item-self .collapse-icon {
   width:20px;
 }
 
@@ -7047,6 +7117,13 @@ settings:
         description: Accepts numbers representing the CSS font-weight
         type: variable-number
         default: 600
+    - 
+        id: h1-color
+        title: H1 font color
+        type: variable-themed-color
+        format: hex
+        default-light: '#363636'
+        default-dark: '#d1d1d1'
     -
         id: level-2-headings
         title: Level 2 Headings
@@ -7066,6 +7143,13 @@ settings:
         type: variable-number
         default: 600
     - 
+        id: h2-color
+        title: H2 font color
+        type: variable-themed-color
+        format: hex
+        default-light: '#363636'
+        default-dark: '#d1d1d1'
+    -
         id: level-3-headings
         title: Level 3 Headings
         type: heading
@@ -7083,6 +7167,13 @@ settings:
         description: Accepts numbers representing the CSS font-weight
         type: variable-number
         default: 600
+    - 
+        id: h3-color
+        title: H3 font color
+        type: variable-themed-color
+        format: hex
+        default-light: '#363636'
+        default-dark: '#d1d1d1'
     -
         id: level-4-headings
         title: Level 4 Headings
@@ -7102,12 +7193,19 @@ settings:
         type: variable-number
         default: 500
     - 
+        id: h4-color
+        title: H4 font color
+        type: variable-themed-color
+        format: hex
+        default-light: '#363636'
+        default-dark: '#d1d1d1'
+    - 
         id: level-5-headings
         title: Level 5 Headings
         type: heading
         level: 3
         collapsed: true
-    - 
+    -  
         id: h5
         title: H5 font size
         description: Accepts any CSS font-size value
@@ -7119,6 +7217,13 @@ settings:
         description: Accepts numbers representing the CSS font-weight
         type: variable-number
         default: 500
+    -
+        id: h5-color
+        title: H5 font color
+        type: variable-themed-color
+        format: hex
+        default-light: '#363636'
+        default-dark: '#d1d1d1'
     - 
         id: level-6-headings
         title: Level 6 Headings
@@ -7137,6 +7242,13 @@ settings:
         description: Accepts numbers representing the CSS font-weight
         type: variable-number
         default: 400
+    -
+        id: h6-color
+        title: H6 font color
+        type: variable-themed-color
+        format: hex
+        default-light: '#363636'
+        default-dark: '#d1d1d1'
     -
         id: advanced
         title: Advanced

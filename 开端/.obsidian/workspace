@@ -12,7 +12,20 @@
             "file": "操作系统/LInux.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "99da38b95a585f8d"
+      },
+      {
+        "id": "cdb0f6ba0ec96d9a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "操作系统/LInux.md",
+            "mode": "preview"
+          }
+        },
+        "group": "99da38b95a585f8d"
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             }
           },
           {
-            "id": "a6c7238eb0ac9111",
+            "id": "e6c5f63e3bc978fd",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
@@ -114,20 +127,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 264.3428649902344,
     "collapsed": true
   },
   "active": "b2a2b1b292b26247",
   "lastOpenFiles": [
     "操作系统/LInux.md",
+    "TIP/正则表达式.md",
+    "组成原理/哈工大刘宏伟.md",
     "C++/黑马基础课程C++部分.md",
     "数据结构/青岛大学王卓.md",
     "C++/C++_Primer.md",
-    "组成原理/哈工大刘宏伟.md",
     "思路清晰.md",
     "仓库/Vim Cheat Sheet.pdf",
     "仓库/vi-vim-cheat-sheet-sch.gif",
-    "双向链接/测试.md",
     "黑马基础课程C++部分 1.md"
   ]
 }
