@@ -1,8 +1,7 @@
 [
-  "obsidian-outliner",
-  "obsidian-kanban",
-  "sliding-panes-obsidian",
   "obsidian-mind-map",
   "better-word-count",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-outliner",
+  "sliding-panes-obsidian"
 ]
