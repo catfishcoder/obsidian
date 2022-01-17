@@ -2,5 +2,10 @@
   "baseFontSize": 20,
   "theme": "obsidian",
   "cssTheme": "Obsidian Nord",
-  "translucency": false
+  "translucency": false,
+  "enabledCssSnippets": [
+    "clutter-free-headings",
+    "notation-colour-blocks",
+    "outliner-for-the-outline-and-file-explorer"
+  ]
 }

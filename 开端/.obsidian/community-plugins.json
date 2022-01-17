@@ -3,5 +3,8 @@
   "better-word-count",
   "table-editor-obsidian",
   "obsidian-outliner",
-  "sliding-panes-obsidian"
+  "sliding-panes-obsidian",
+  "easy-typing-obsidian",
+  "markdown-prettifier",
+  "cm-chs-patch"
 ]

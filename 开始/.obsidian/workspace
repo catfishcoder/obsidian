@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思路清晰/学习路线.md",
-            "mode": "source"
+            "file": "思路清晰/通讯录管理程序.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思路清晰/学习路线.md",
+                "file": "思路清晰/通讯录管理程序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,8 +98,8 @@
   },
   "active": "8e0ad04f3b92f957",
   "lastOpenFiles": [
-    "思路清晰/学习路线.md",
     "思路清晰/通讯录管理程序.md",
+    "思路清晰/学习路线.md",
     "做个笔记/linux下制作PE启动盘.md",
     "做个笔记/linux下制作定时脚本.md",
     "测试.md",
