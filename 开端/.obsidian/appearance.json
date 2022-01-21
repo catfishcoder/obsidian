@@ -1,7 +1,7 @@
 {
   "baseFontSize": 20,
-  "theme": "obsidian",
-  "cssTheme": "Obsidian Nord",
+  "theme": "moonstone",
+  "cssTheme": "",
   "translucency": false,
   "enabledCssSnippets": [
     "clutter-free-headings",

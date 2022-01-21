@@ -7,5 +7,5 @@
   "livePreview": false,
   "showFrontmatter": false,
   "showLineNumber": false,
-  "vimMode": false
+  "vimMode": true
 }
