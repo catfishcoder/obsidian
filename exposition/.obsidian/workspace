@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C++/C++_Primer.md",
+            "file": "思路清晰.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/C++_Primer.md",
+                "file": "思路清晰.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/C++_Primer.md"
+                "file": "思路清晰.md"
               }
             }
           },
@@ -118,8 +118,8 @@
   },
   "active": "6d370239f45a0ba1",
   "lastOpenFiles": [
-    "C++/C++_Primer.md",
     "思路清晰.md",
+    "C++/C++_Primer.md",
     "TIP/未命名.md",
     "TIP/正则表达式.md",
     "操作系统/LInux.md",
