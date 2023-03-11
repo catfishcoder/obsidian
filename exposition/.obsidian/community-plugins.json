@@ -1,10 +1,7 @@
 [
-  "obsidian-mind-map",
-  "better-word-count",
-  "table-editor-obsidian",
-  "obsidian-outliner",
-  "sliding-panes-obsidian",
   "easy-typing-obsidian",
   "markdown-prettifier",
-  "cm-chs-patch"
+  "cm-chs-patch",
+  "obsidian-kanban",
+  "homepage"
 ]

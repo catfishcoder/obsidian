@@ -1,11 +1,16 @@
 {
-  "baseFontSize": 20,
-  "theme": "moonstone",
-  "cssTheme": "",
+  "baseFontSize": 16,
+  "theme": "obsidian",
+  "cssTheme": "Obsidian Nord",
   "translucency": false,
   "enabledCssSnippets": [
     "clutter-free-headings",
     "notation-colour-blocks",
     "outliner-for-the-outline-and-file-explorer"
-  ]
+  ],
+  "accentColor": "",
+  "nativeMenus": true,
+  "interfaceFontFamily": "思源黑体 CN VF,思源黑体 CN",
+  "textFontFamily": "思源黑体 CN,JetBrains Mono NL",
+  "monospaceFontFamily": "JetBrains Mono NL"
 }

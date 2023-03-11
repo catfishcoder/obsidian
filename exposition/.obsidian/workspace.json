@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "89bdb189648cec1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a11b71c873d2611",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "606ac58d06611906",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "看板/计算机学习过程.md"
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "32c41a6883527322",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1e13497830bc383",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50994dfc36770952",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e3c9dd39b06917c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 221.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2c32c9bfd89ead33",
+    "type": "split",
+    "children": [
+      {
+        "id": "1908f7e471e0718f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a123538539e0ddf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "看板/计算机学习过程.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a52ebdea780615dc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bb95561db3f6a053",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "看板/计算机学习过程.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "606ac58d06611906",
+  "lastOpenFiles": [
+    "HomePage.md",
+    "思路清晰.md",
+    "其他/23书单.md",
+    "早上.md",
+    "其他",
+    "看板/计算机学习过程.md",
+    "未命名.canvas",
+    "看板",
+    "上午 1.md",
+    "上午.md",
+    "操作系统/LInux.md",
+    "仓库/Vim Cheat Sheet.pdf",
+    "C++/C++_Primer.md",
+    "TIP/未命名.md",
+    "TIP/正则表达式.md",
+    "202201161822.md",
+    "202201161821.md",
+    "202201161823.md",
+    "C++/黑马基础课程C++部分.md",
+    "组成原理/哈工大刘宏伟.md"
+  ]
+}
