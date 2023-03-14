@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5a11b71c873d2611",
+        "id": "bd5e5ef656598835",
         "type": "tabs",
         "children": [
           {
-            "id": "606ac58d06611906",
+            "id": "2b8ad9524b7fd554",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "看板/计算机学习过程.md"
+                "file": "python.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -60,8 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5,
-    "collapsed": true
+    "width": 221.5
   },
   "right": {
     "id": "2c32c9bfd89ead33",
@@ -77,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "看板/计算机学习过程.md",
+                "file": "python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "看板/计算机学习过程.md"
+                "file": "python.md"
               }
             }
           }
@@ -114,24 +116,28 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "606ac58d06611906",
+  "active": "2b8ad9524b7fd554",
   "lastOpenFiles": [
     "HomePage.md",
+    "python.md",
+    "TIP/CS 61a.md",
+    "读书/23书单.md",
+    "读书/《百年孤独》.md",
     "思路清晰.md",
-    "其他/23书单.md",
     "早上.md",
-    "其他",
+    "读书",
     "看板/计算机学习过程.md",
     "未命名.canvas",
     "看板",

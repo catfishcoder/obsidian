@@ -4,8 +4,9 @@
   "alwaysUpdateLinks": true,
   "readableLineLength": false,
   "legacyEditor": false,
-  "livePreview": false,
+  "livePreview": true,
   "showFrontmatter": false,
   "showLineNumber": false,
-  "vimMode": false
+  "vimMode": false,
+  "defaultViewMode": "source"
 }
